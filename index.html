@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Calmzone — сайт для подростков, которые испытывают тревогу. Советы, поддержка и ресурсы для улучшения самочувствия.">
+  <title>Calmzone — Дыши. Ты не один.</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☁️</text></svg>">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <span class="logo-icon"><i class="fas fa-cloud"></i></span>
+        <span>Calmzone</span>
+      </a>
+      
+      <!-- Mobile Menu Toggle (CSS-only hamburger) -->
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      
+      <!-- Navigation -->
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link active">Главная</a></li>
+          <li><a href="tips.html" class="nav-link">Советы</a></li>
+          <li><a href="facts.html" class="nav-link">Факты</a></li>
+          <li><a href="memes.html" class="nav-link">Мемы</a></li>
+          <li><a href="books.html" class="nav-link">Книги и фильмы</a></li>
+          <li><a href="quotes.html" class="nav-link">Цитаты</a></li>
+          <li><a href="contacts.html" class="nav-link">Поддержка</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main">
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <!-- CSS Illustration -->
+        <div class="illustration">
+          <div class="breathing-circle"></div>
+          <div class="cloud"></div>
+        </div>
+        
+        <h1 class="hero-title fade-in">Дыши. Ты не один.</h1>
+        <p class="hero-subtitle fade-in-delay-1">Снижаем тревогу вместе — простые шаги к спокойствию. Здесь ты найдёшь поддержку и понимание.</p>
+        
+        <div class="mt-4 fade-in-delay-2">
+          <a href="tips.html" class="btn btn-primary">
+            <i class="fas fa-lightbulb"></i> Начни с простого
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quote of the Day -->
+    <section class="container">
+      <div class="quote-block">
+        <p class="quote-text">"Тревога — это не слабость, это сигнал, что тебе нужна забота. Позволь себе быть заботливым к себе."</p>
+        <p class="quote-author">— Цитата дня</p>
+      </div>
+    </section>
+
+    <!-- Quick Overview Section -->
+    <section class="container mt-4">
+      <div class="section-header">
+        <h2 class="section-title">Что здесь есть?</h2>
+        <p class="section-subtitle">Разделы, которые помогут тебе почувствовать себя лучше</p>
+      </div>
+      
+      <div class="cards-grid">
+        <!-- Tips Card -->
+        <article class="card card-lavender fade-in" style="animation-delay: 0.1s;">
+          <div class="card-icon"><i class="fas fa-heart-pulse"></i></div>
+          <h3 class="card-title">Полезные советы</h3>
+          <p class="card-text">Простые и эффективные упражнения: дыхание, заземление, движение. То, что работает уже сейчас.</p>
+          <a href="tips.html" class="btn btn-secondary mt-2">Узнать больше</a>
+        </article>
+        
+        <!-- Facts Card -->
+        <article class="card card-mint fade-in" style="animation-delay: 0.2s;">
+          <div class="card-icon"><i class="fas fa-book-open"></i></div>
+          <h3 class="card-title">Интересные факты</h3>
+          <p class="card-text">Как люди справлялись с тревогой в истории? Удивительные открытия и практики со всего мира.</p>
+          <a href="facts.html" class="btn btn-secondary mt-2">Почитать</a>
+        </article>
+        
+        <!-- Memes Card -->
+        <article class="card card-peach fade-in" style="animation-delay: 0.3s;">
+          <div class="card-icon"><i class="fas fa-face-smile-beam"></i></div>
+          <h3 class="card-title">Успокоительные мемы</h3>
+          <p class="card-text">Немного юмора никогда не мешало. Мемы, которые помогут улыбнуться и расслабиться.</p>
+          <a href="memes.html" class="btn btn-secondary mt-2">Посмотреть</a>
+        </article>
+        
+        <!-- Books & Movies Card -->
+        <article class="card card-blue fade-in" style="animation-delay: 0.4s;">
+          <div class="card-icon"><i class="fas fa-film"></i></div>
+          <h3 class="card-title">Книги и фильмы</h3>
+          <p class="card-text">Подборка того, что стоит почитать или посмотреть, когда на душе не спокойно.</p>
+          <a href="books.html" class="btn btn-secondary mt-2">Открыть</a>
+        </article>
+        
+        <!-- Quotes Card -->
+        <article class="card card-lavender fade-in" style="animation-delay: 0.5s;">
+          <div class="card-icon"><i class="fas fa-quote-left"></i></div>
+          <h3 class="card-title">Мотивационные цитаты</h3>
+          <p class="card-text">Вдохновляющие слова, которые напомнят: всё будет хорошо. Ты сильнее, чем думаешь.</p>
+          <a href="quotes.html" class="btn btn-secondary mt-2">Вдохнуться</a>
+        </article>
+        
+        <!-- Support Card -->
+        <article class="card card-mint fade-in" style="animation-delay: 0.6s;">
+          <div class="card-icon"><i class="fas fa-hand-holding-heart"></i></div>
+          <h3 class="card-title">Поддержка</h3>
+          <p class="card-text">Если очень тяжело — это нормально просить помощи. Здесь контакты профессионалов.</p>
+          <a href="contacts.html" class="btn btn-secondary mt-2">Найти помощь</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Reassurance Section -->
+    <section class="container mt-4">
+      <div class="quote-block" style="background: linear-gradient(135deg, #e8f4f8 0%, #d4e5ed 100%); border-left-color: #7b9eb8;">
+        <p class="quote-text" style="font-size: 1.1rem;">
+          <i class="fas fa-info-circle" style="color: #7b9eb8; margin-right: 0.5rem;"></i>
+          Этот сайт — пространство для тебя. Здесь нет осуждения, только поддержка. Если ты чувствуешь тревогу — это нормально. Многие люди проходят через это. Важно — не оставаться с этим наедине.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <!-- Help Section -->
+        <div class="footer-help">
+          <p class="footer-help-title"><i class="fas fa-phone"></i> Если очень тяжело — позвони:</p>
+          <a href="tel:88002000122" class="footer-help-phone">8-800-2000-122</a>
+          <p class="footer-help-text">Бесплатный телефон доверия для детей и подростков. Анонимно и бесплатно.</p>
+        </div>
+        
+        <!-- Footer Links -->
+        <div class="footer-links">
+          <a href="index.html" class="footer-link">Главная</a>
+          <a href="tips.html" class="footer-link">Советы</a>
+          <a href="facts.html" class="footer-link">Факты</a>
+          <a href="memes.html" class="footer-link">Мемы</a>
+          <a href="books.html" class="footer-link">Книги и фильмы</a>
+          <a href="quotes.html" class="footer-link">Цитаты</a>
+          <a href="contacts.html" class="footer-link">Поддержка</a>
+        </div>
+        
+        <p class="footer-copyright">&copy; 2026 Calmzone. Сделано с заботой о тебе.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <a href="#" class="back-to-top" title="Наверх">
+    <i class="fas fa-chevron-up"></i>
+  </a>
+</body>
+</html>
