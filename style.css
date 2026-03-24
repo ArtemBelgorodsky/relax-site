@@ -997,4 +997,14 @@ a:hover {
     box-shadow: none;
     border: 1px solid #ddd;
   }
+
+/* === Eva Section === */
+}
+
+.imgeva {
+  height: 600px;
+  background-image: url(public/eva.jpg);
+  background-size: cover;
+  width: auto;
+
 }
